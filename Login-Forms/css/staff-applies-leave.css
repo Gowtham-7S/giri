@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.image img {
+    object-fit: cover;
+    height: 111vh;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.position {
+    position: relative;
+}
+
+.total {
+    position: absolute;
+    top: 1%;
+    left: 665px;
+
+}
+
+.container {
+    width: 600px;
+    height: 1000px;
+    border: 1px dotted;
+    border-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: rgb(255, 253, 253);
+    padding: 9px;
+
+}
+
+.head1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.border {
+    border: 1px dashed;
+    border-color: gray;
+
+}
+
+#fname {
+    height: 20px;
+    width: 44%;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: lightgray;
+}
+
+#number {
+    height: 20px;
+    width: 93%;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: lightgray;
+
+}
+
+#department {
+    height: 20px;
+    width: 93%;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: lightgray;
+
+}
+
+#position {
+    height: 20px;
+    width: 44%;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: lightgray;
+
+}
+
+.head2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 12px;
+    text-decoration: underline;
+}
+
+#other-text {
+    height: 50px;
+    width: 65%;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: lightgray;
+
+}
+
+#reason {
+    margin: 8px;
+    padding: 5px;
+}
+
+.date-picker {
+    display: flex;
+}
+
+#date {
+    height: 30px;
+    width: 30%;
+    padding-left: 15px;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: lightgray;
+}
+
+#days-bar {
+    height: 20px;
+    width: 35%;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: lightgray;
+}
+
+#alternate {
+    height: 20px;
+    width: 44%;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: lightgray;
+}
+
+#submit {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    border: 1px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#submit:hover {
+    background-color: green;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

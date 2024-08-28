@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff-Applies-Leave</title>
+    <link rel="stylesheet" href="css/staff-applies-leave.css">
+</head>
+
+<body>
+    <div class="position">
+        <div class="image">
+            <img src="images/leave-bg.jpg">
+        </div>
+        <div class="total">
+            <div class="container">
+                <h3 class="head1">Staff Leave Application Form</h3>
+                <hr class="border">
+
+                <div class="text">
+                    <label for="fname" style="margin: 10px; font-size:18px;">Name:</label>
+                    <br>
+
+                    <input type="text" id="fname" name="fname" placeholder="First name">
+                    <input type="text" id="fname" name="fname" placeholder="Last name">
+                    <br>
+
+                    <label for="number" style="margin: 10px;font-size:18px;"> Contact number: <span
+                            style="color: red;font-size: 25px;">*</span> </label>
+                    <br>
+                    <input type="text" id="number" name="fname" placeholder=" Contact number">
+                    <br>
+
+                    <label for="department" style="margin: 10px;font-size:18px;">Department:</label>
+                    <br>
+                    <input type="text" id="department" name="fname" placeholder="Department">
+                    <br>
+
+                    <label for="position" style="margin: 10px;font-size:18px;">Position:</label>
+                    <br>
+                    <input type="text" id="position" name="fname" placeholder="Designation">
+                    <input type="text" id="position" name="fname" placeholder="Staff ID ">
+                    <br>
+                    <hr class="border">
+
+                    <h5 class="head2">Leave Details</h5>
+
+                    <label for="position" style="margin: 10px;font-size:18px;">Reason for Leave: <span
+                            style="color: red;font-size: 25px;">*</span> </label>
+                    <br><br>
+
+                    <input type="radio" id="reason" name="leave" value="">
+                    <label for="reason">Sick Leave</label><br>
+
+                    <input type="radio" id="reason" name="leave" value="">
+                    <label for="reason">Emergency Leave </label><br>
+
+                    <input type="radio" id="reason" name="leave" value="">
+                    <label for="reason">Annual Leave</label><br>
+
+                    <input type="radio" id="reason" name="leave" value="">
+                    <label for="reason">Compensiate Leave</label><br>
+
+                    <input type="radio" id="reason" name="leave" value="">
+                    <label for="reason">Others</label><br>
+                    <input type="text" id="other-text" name="fname" placeholder="If other reason comment here"
+                        max="100"><br>
+
+
+                    <label for="date" style="margin: 10px;font-size:18px;">Date:</label><br>
+
+                    <div class="date-picker">
+                        <p style="margin: 10px;color: gray;">From</p>
+                        <input type="date" id="date" name="from-date">
+                        <p style="margin: 10px;color: gray;">To </p> <input type="date" id="date" name="to-date">
+                    </div>
+                    <input type="number" id="days-bar" name="fname" placeholder="No.of Days Leave">
+
+                    <div class="alternate">
+                        <label for="alternate" style="margin: 10px;font-size:18px;"> who does your work in your absence?
+                            <span style="color: red;font-size: 25px;">*</span> </label>
+                        <br>
+                        <input type="text" id="alternate" name="fname" placeholder="Alternate Person Name">
+                    </div>
+                    <br><br>
+
+                    <div class="button">
+                        <a href="">
+                            <input type="button" id="submit" name="request-leave" value="Request Leave">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

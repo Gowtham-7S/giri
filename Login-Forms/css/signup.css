@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(180, 178, 178);
+
+
+}
+
+.image img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.position {
+    position: relative;
+
+}
+
+.total {
+    position: absolute;
+    bottom: 10%;
+    right: 1%;
+}
+
+#box {
+
+    text-align: center;
+    margin-top: 130px;
+}
+
+.head1 {
+    color: black;
+
+    margin-bottom: -13px;
+
+}
+
+.head2 {
+    font-size: 20px;
+    margin-bottom: -13px;
+}
+
+.text {
+    margin: 5px;
+}
+
+#firstname {
+    height: 35px;
+    width: 217px;
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 8px;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#contact {
+    height: 35px;
+    width: 95.7%;
+    margin: 7px;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#password {
+    height: 35px;
+    width: 95.7%;
+    margin: 7px;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.dob {
+    display: flex;
+    margin: 10px;
+}
+
+#birthday {
+    width: 150px;
+    height: 35px;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#submit {
+    width: 100px;
+    height: 35px;
+    border: 1px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+
+}
+
+#submit:hover {
+    background-color: grey;
+    color: white;
+}
+
+.gender {
+
+    display: flex;
+align-items: center;
+}
+
+form {
+    display: flex;
+    margin: 5px;
+}
+
+.fml {
+    border: 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100px;
+    height: 25px;
+    padding-left: 9px;
+    padding: 4px;
+    margin: 7px;
+
+}
+
+.ml {
+    border: 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100px;
+    height: 25px;
+    padding-left: 9px;
+    padding: 4px;
+    margin: 7px;
+
+}
+
+
+#signup {
+    height: 45px;
+    width: 150px;
+    border: 1px  black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#signup:hover {
+    background-color: grey;
+    color: white;
+}
+
+#signin {
+    height: 26px;
+    width: 85px;
+    border: 1px  black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+#signin:hover {
+    background-color: grey;
+    color: white;
+}

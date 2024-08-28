@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+.position{
+    position: relative;
+}
+
+.image img {
+    object-fit:cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+.total{
+        position: absolute;
+        bottom: 45%;
+        right: 5%;
+}
+/* .container {
+    height: 300px;
+    width: 330px;
+    border: 1px solid;
+    background-color: lightgray;
+    justify-content: center;
+    margin: auto;
+    margin-right: auto;
+   
+} */
+
+.box{
+    text-align: center;
+}
+
+.head{
+    color:  black;
+}
+#contact {
+    height: 35px;
+    width: 100%;
+    margin: 7px;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+
+#password {
+    height: 35px;
+    width: 100%;
+    margin: 7px;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.text {
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center !important;
+}
+
+#signin {
+    height: 26px;
+    width: 85px;
+    border: 1px  black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+#signin:hover {
+    background-color: grey;
+    color: white;
+}
